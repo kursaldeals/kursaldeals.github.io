@@ -230,6 +230,33 @@ div{
     }
 }
 
+@media only screen and (max-width: 500px) {
+    /* Style adjustments for viewports that meet the condition */
+    body {
+        margin-top: 40%;
+    }
+
+    div{
+        margin: 0 auto;
+    }
+
+    #email{
+        margin-top: 30%;
+    }
+
+    #email a{
+        font-size: 100%;
+    }
+
+    #kursal{
+        font-size: 200%;
+    }
+
+    #deals{
+        font-size: 200%;
+    }
+}
+
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
        (min-resolution: 1.25dppx),
