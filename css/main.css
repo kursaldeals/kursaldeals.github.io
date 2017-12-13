@@ -97,7 +97,10 @@ textarea {
 
 body {
     background-color: #FFF;
-
+    color: #BF4040;
+    font-family: Avenir Next, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20%;
 }
 
 img{
@@ -106,10 +109,31 @@ img{
     display: block;
 }
 
+div{
+    margin: 0 auto;
+}
 
+#email{
+    margin-top: 10%;
+}
 
+#email a{
+    color: #6D2424;
+    text-decoration: none;
+    font-size: 200%;
+}
 
+#kursal{
+    font-weight: normal;
+    letter-spacing: 10px;
+    font-size: 500%;
+}
 
+#deals{
+    font-weight: lighter;
+    letter-spacing: 10px;
+    font-size: 500%;
+}
 
 
 
